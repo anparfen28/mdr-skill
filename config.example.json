@@ -1,0 +1,9 @@
+{
+  "sheet_id": "PASTE_YOUR_GOOGLE_SHEET_ID",
+  "sheet_url": "https://docs.google.com/spreadsheets/d/PASTE_YOUR_GOOGLE_SHEET_ID",
+  "auth": "oauth",
+  "token_path": "~/.mdr/token.json",
+  "_note": "Одна командная таблица на всех (1 вкладка = 1 ивент): один sheet_id у всех MDR, таблица расшарена как Editor, каждый пишет СВОИМ Google-токеном (token_path свой). НЕ сервис-аккаунт, НЕ Google Cloud. Регистранты ивента собираются САМИ по коду ивента — заводить people-фильтры в Pipedrive НЕ нужно (event_filters удалён 21.07.2026).",
+  "service_account_path": "",
+  "_note_auth": "OAuth (token_path) — основной путь, каждый MDR под своим Google. service_account_path — необязательный запасной: используется, только если OAuth протух И у аккаунта УЖЕ есть доступ к таблице. Расшаривать файл на сервис-аккаунт специально не нужно."
+}

@@ -1,0 +1,5 @@
+# Личные и секретные файлы — НЕ коммитить (у каждого MDR свои)
+config.json
+token*.json
+*.key
+credentials*.json
